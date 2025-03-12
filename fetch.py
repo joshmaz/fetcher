@@ -36,7 +36,7 @@ for page in range(1, TOTAL_PAGES + 1):
         print(f"Error on page {page}: {e}")
 
     # Pause randomly between 10-20 seconds
-    print(f"Pausing for some number seconds...")
+    print(f"Pausing for some number of seconds...")
     time.sleep(random.uniform(10, 20))
 
 # Convert images to PDF
